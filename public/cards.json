@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions and ATS optimization.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Content Generator",
+    "description": "Generate engaging social media posts, captions, and hashtags using AI.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Multi-platform support",
+      "Caption generator",
+      "Hashtag suggestions",
+      "Content calendar"
+    ],
+    "icon": "../src/assets/products/social-media.png"
+  },
+  {
+    "id": 3,
+    "name": "Website Copy AI Writer",
+    "description": "Write high-converting website copy for landing pages, ads, and blogs.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Landing page copy",
+      "Ad copy generator",
+      "SEO optimization",
+      "Tone customization"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 4,
+    "name": "Logo Maker Studio",
+    "description": "Design stunning logos with AI and customizable templates.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "1000+ logo templates",
+      "High-resolution export",
+      "Brand kit",
+      "Color customization"
+    ],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 5,
+    "name": "Video Script Generator",
+    "description": "Create engaging scripts for YouTube, ads, and reels instantly.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "YouTube scripts",
+      "Ad scripts",
+      "Hook generator",
+      "Storytelling formats"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing AI Tool",
+    "description": "Write high-converting email campaigns and automate sequences.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Email templates",
+      "Automation flows",
+      "Subject line generator",
+      "Analytics tracking"
+    ],
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Proposal Generator",
+    "description": "Create winning proposals for Fiverr, Upwork, and client pitches.",
+    "price": 7,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Proposal templates",
+      "Client personalization",
+      "AI suggestions",
+      "Quick export"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 8,
+    "name": "Keyword Research Tool Pro",
+    "description": "Find profitable keywords and improve SEO strategy with data insights.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Keyword suggestions",
+      "Search volume data",
+      "Competition analysis",
+      "SEO insights"
+    ],
+    "icon": "../src/assets/products/operation.png"
+  }
+]

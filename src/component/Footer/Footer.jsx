@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-[#101727]">
       <div className="max-w-300 m-auto pt-30 pb-10  text-gray-400 space-y-10">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-5 justify-between items-start pb-10 px-8 lg:px-0">
+        <div className="flex flex-col md:flex-row gap-5 justify-between items-start pb-10 px-8 lg:px-0">
           <div className="space-y-8">
             <h1>
               <a className="text-4xl font-semibold leading-12 text-white ">
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="divider bg-gray-500 h-[1px]"></div>
+        <div className="divider bg-gray-500 h-px"></div>
         <div className="flex justify-between px-8 lg:px-0">
           <p>© 2026 Digitools. All rights reserved.</p>
           <ul className="flex flex-row gap-5">
