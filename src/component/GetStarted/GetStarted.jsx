@@ -8,15 +8,15 @@ const GetStarted = () => {
     <div className="bg-gray-50">
       <div className="max-w-300 m-auto">
         <div className="py-30 ">
-          <div className="cards-heading text-center w-[60%] m-auto space-y-6">
-            <h1 className="text-5xl text-black-cus font-bold">
+          <div className="cards-heading text-center lg:w-[60%] m-auto space-y-6 p-10">
+            <h1 className="text-3xl lg:text-5xl text-black-cus font-bold">
               Get Started in 3 Steps
             </h1>
             <p className="text-gray-500">
               Start using premium digital tools in minutes, not hours.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-7 mt-10">
+          <div className="grid md:grid-cols-3 gap-7 mt-10 p-5">
             <div className="rounded-2xl bg-white border-2 border-gray-100 p-7 relative text-center">
               <span class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white absolute top-5 right-5">
                 01

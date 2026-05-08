@@ -5,12 +5,12 @@ import { IoPlayOutline } from "react-icons/io5";
 
 const Hero = () => {
   return (
-    <div className="max-w-300 m-auto py-21 flex flex-col-reverse md:flex-row gap-8 px-7 md:px-5 lg:md:px-0">
+    <div className="max-w-300 m-auto py-21 flex flex-col-reverse md:flex-row gap-8 px-7 md:px-5 lg:md:px-5">
       <div className="flex flex-col justify-center space-y-8 w-full  md:w-[60%] pr-5 items-center text-center md:text-left md:items-start">
         <div className="badge badge-soft badge-primary rounded-3xl py-3">
           <img src={BulletImg} alt="" /> New: AI-Powered Tools Available
         </div>
-        <h1 className="text-7xl font-bold text-black-cus leading-20">
+        <h1 className="text-5xl lg:text-7xl font-bold text-black-cus leading-20">
           Supercharge Your
           <br />
           Digital Workflow

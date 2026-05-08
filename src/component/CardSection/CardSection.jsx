@@ -11,7 +11,7 @@ const CardSection = ({ cardsPromise }) => {
   return (
     <div className="max-w-300 m-auto py-30">
       <div className="cards-heading text-center w-[60%] m-auto space-y-6">
-        <h1 className="text-5xl text-black-cus font-bold">
+        <h1 className="text-3xl lg:text-5xl text-black-cus font-bold">
           Premium Digital Tools
         </h1>
         <p className="text-gray-500">
@@ -37,7 +37,7 @@ const CardSection = ({ cardsPromise }) => {
         />
       </div>
       {activeTab === "products" && (
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-5">
           {cards.map((card, index) => (
             <Card key={index} card={card} cart={cart} setCart={setCart} />
           ))}

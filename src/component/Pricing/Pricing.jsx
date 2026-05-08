@@ -5,15 +5,15 @@ const Pricing = () => {
   return (
     <div className="max-w-300 m-auto">
       <div className="py-30">
-        <div className="cards-heading text-center w-[60%] m-auto space-y-6 mb-10">
-          <h1 className="text-5xl text-black-cus font-bold">
+        <div className="cards-heading text-center lg:w-[60%] m-auto space-y-6 mb-10 px-10">
+          <h1 className="text-3xl lg:text-5xl text-black-cus font-bold">
             Simple, Transparent Pricing
           </h1>
           <p className="text-gray-500">
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-7">
+        <div className="grid md:grid-cols-3 gap-7 p-5">
           <div className="flex flex-col justify-around bg-gray-50 p-6 border-2 border-gray-100 rounded-2xl">
             <div>
               <h3 className="text-2xl text-black-cus font-bold">Starter</h3>
