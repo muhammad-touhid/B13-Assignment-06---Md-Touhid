@@ -7,6 +7,7 @@ import Navbar from "./component/Navbar/Navbar";
 import Cart from "./component/Cart/Cart";
 import GetStarted from "./component/GetStarted/GetStarted";
 import Pricing from "./component/Pricing/Pricing";
+import Cta from "./component/CTA/Cta";
 
 const getCards = async () => {
   const res = await fetch("/cards.json");
@@ -25,6 +26,7 @@ function App() {
         <CardSection cardsPromise={cardsPromise} />
         <GetStarted />
         <Pricing />
+        <Cta />
         <Footer />
       </div>
     </>
