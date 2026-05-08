@@ -9,8 +9,8 @@ const CardSection = ({ cardsPromise }) => {
   const [cart, setCart] = useState([]);
 
   return (
-    <div className="max-w-300 m-auto">
-      <div className="cards-heading text-center pt-30 w-[60%] m-auto space-y-6">
+    <div className="max-w-300 m-auto py-30">
+      <div className="cards-heading text-center w-[60%] m-auto space-y-6">
         <h1 className="text-5xl text-black-cus font-bold">
           Premium Digital Tools
         </h1>

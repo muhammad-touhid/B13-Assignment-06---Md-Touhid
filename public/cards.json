@@ -13,7 +13,7 @@
       "Export to PDF",
       "AI content suggestions"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "../src/assets/products/cv.png"
   },
   {
     "id": 2,
@@ -45,7 +45,7 @@
       "SEO optimization",
       "Tone customization"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "../src/assets/products/copy-writer.png"
   },
   {
     "id": 4,
@@ -77,7 +77,7 @@
       "Hook generator",
       "Storytelling formats"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "../src/assets/products/video-script.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Subject line generator",
       "Analytics tracking"
     ],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "../src/assets/products/mail.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "AI suggestions",
       "Quick export"
     ],
-    "icon": "Briefcase"
+    "icon": "../src/assets/products/proposal.png"
   },
   {
     "id": 8,

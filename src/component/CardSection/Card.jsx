@@ -20,17 +20,15 @@ const Card = ({ card, cart, setCart }) => {
     toast.success("Item is Added to Cart");
   };
   return (
-    <div className="border-2 border-gray-200 rounded-2xl p-6 relative space-y-6">
+    <div className="flex flex-col justify-around border-2 border-gray-200 rounded-2xl p-6 relative space-y-6">
       <button
         className={`btn btn-soft ${card.tag === "popular" ? "btn-primary" : card.tag === "best seller" ? "btn-warning" : "btn-accent"} rounded-full absolute top-3 right-3 capitalize`}
       >
         {card.tag}
       </button>
-      <img
-        className="border border-gray-200 rounded-full p-3 mt-6"
-        src={card.icon}
-        alt={card.name}
-      />
+      <div className="border border-gray-200 rounded-full p-4 mt-6 w-17 h-17">
+        <img className="m-auto" src={card.icon} alt={card.name} />
+      </div>
       <h3 className="text-2xl font-bold text-black-cus">{card.name}</h3>
       <p className="text-gray-500">{card.description}</p>
       <div>

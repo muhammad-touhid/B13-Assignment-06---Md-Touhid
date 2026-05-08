@@ -6,6 +6,7 @@ import Hero from "./component/Hero/Hero";
 import Navbar from "./component/Navbar/Navbar";
 import Cart from "./component/Cart/Cart";
 import GetStarted from "./component/GetStarted/GetStarted";
+import Pricing from "./component/Pricing/Pricing";
 
 const getCards = async () => {
   const res = await fetch("/cards.json");
@@ -23,6 +24,7 @@ function App() {
         <Counter />
         <CardSection cardsPromise={cardsPromise} />
         <GetStarted />
+        <Pricing />
         <Footer />
       </div>
     </>
