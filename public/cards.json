@@ -13,7 +13,7 @@
       "Export to PDF",
       "AI content suggestions"
     ],
-    "icon": "../src/assets/products/cv.png"
+    "icon": "./products/cv.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Hashtag suggestions",
       "Content calendar"
     ],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "./products/social-media.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "SEO optimization",
       "Tone customization"
     ],
-    "icon": "../src/assets/products/copy-writer.png"
+    "icon": "./products/copy-writer.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Brand kit",
       "Color customization"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "./products/design-tool.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Hook generator",
       "Storytelling formats"
     ],
-    "icon": "../src/assets/products/video-script.png"
+    "icon": "./products/video-script.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Subject line generator",
       "Analytics tracking"
     ],
-    "icon": "../src/assets/products/mail.png"
+    "icon": "./products/mail.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "AI suggestions",
       "Quick export"
     ],
-    "icon": "../src/assets/products/proposal.png"
+    "icon": "./products/proposal.png"
   },
   {
     "id": 8,
@@ -125,6 +125,6 @@
       "Competition analysis",
       "SEO insights"
     ],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "./products/operation.png"
   }
 ]
