@@ -19,7 +19,7 @@ const Cta = () => {
                 Explore Products
               </span>
             </button>
-            <button className="btn btn-outline rounded-3xl border-2 border-white text-white">
+            <button className="btn btn-outline rounded-3xl px-8 border-2 border-white text-white hover:bg-white hover:text-[#9514FA]">
               View Pricing
             </button>
           </div>

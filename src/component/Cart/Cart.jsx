@@ -5,8 +5,12 @@ const Cart = ({ cart, setCart }) => {
   const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
 
   const handlePayment = () => {
-    setCart([]);
-    toast.success("Payment Successful!");
+    if (cart.length === 0) {
+      toast.error("Cart Is Empty");
+    } else {
+      setCart([]);
+      toast.success("Payment Successful!");
+    }
   };
 
   const handleDelete = (item) => {
@@ -16,7 +20,7 @@ const Cart = ({ cart, setCart }) => {
   };
 
   return (
-    <div className="w-[80%] m-auto space-y-4 p-10 border-2 border-gray-200 rounded-2xl mb-10">
+    <div className="w-[80%] m-auto space-y-4 p-5 lg:p-10 border-2 border-gray-200 rounded-2xl mb-10">
       <h1 className="text-2xl font-semibold mb-6">Your Cart</h1>
       {cart.length === 0 ? (
         <p className="text-center text-2xl font-semibold text-gray-400">
@@ -27,9 +31,9 @@ const Cart = ({ cart, setCart }) => {
           {cart.map((item, index) => (
             <div
               key={index}
-              className="flex justify-between items-center w-full bg-gray-50 p-5 rounded-2xl"
+              className="flex justify-between items-start sm:items-center w-full bg-gray-50 p-5 rounded-2xl"
             >
-              <div className="flex items-center gap-5">
+              <div className="flex flex-col items-start sm:flex-row sm:items-center gap-5">
                 <div>
                   <img src={item.icon} alt="" />
                 </div>

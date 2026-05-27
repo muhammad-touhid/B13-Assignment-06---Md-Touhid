@@ -21,11 +21,11 @@ const GetStarted = () => {
               <span class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white absolute top-5 right-5">
                 01
               </span>
-              <div className="m-auto bg-[#eff1f3] rounded-full p-5 mt-20 w-24 h-24">
+              <div className="m-auto bg-[#eff1f3] rounded-full p-5 mt-15 w-24 h-24">
                 <img src={UserImg} alt="user" />
               </div>
               <h3 className="text-2xl font-bold mt-4">Create Account</h3>
-              <p className="text-gray-500 mt-4 mb-20">
+              <p className="text-gray-500 mt-4 mb-15">
                 Sign up for free in seconds. No credit card required to get
                 started.
               </p>
@@ -35,11 +35,11 @@ const GetStarted = () => {
                 02
               </span>
 
-              <div className="m-auto bg-[#eff1f3] rounded-full p-5 mt-20 w-24 h-24">
+              <div className="m-auto bg-[#eff1f3] rounded-full p-5 mt-15 w-24 h-24">
                 <img src={PackageImg} alt="user" />
               </div>
               <h3 className="text-2xl font-bold mt-4">Choose Products</h3>
-              <p className="text-gray-500 mt-4 mb-20">
+              <p className="text-gray-500 mt-4 mb-15">
                 Browse our catalog and select the tools that fit your needs.
               </p>
             </div>
@@ -47,11 +47,11 @@ const GetStarted = () => {
               <span class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white absolute top-5 right-5">
                 03
               </span>
-              <div className="m-auto bg-[#eff1f3] rounded-full p-5 mt-20 w-24 h-24">
+              <div className="m-auto bg-[#eff1f3] rounded-full p-5 mt-15 w-24 h-24">
                 <img src={RocketImg} alt="user" />
               </div>
               <h3 className="text-2xl font-bold mt-4">Start Creating</h3>
-              <p className="text-gray-500 mt-4 mb-20">
+              <p className="text-gray-500 mt-4 mb-15">
                 Download and start using your premium tools immediately.
               </p>
             </div>

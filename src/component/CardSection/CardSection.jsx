@@ -2,11 +2,10 @@ import React, { use, useState } from "react";
 import Card from "./Card";
 import Cart from "../Cart/Cart";
 
-const CardSection = ({ cardsPromise }) => {
+const CardSection = ({ cardsPromise, cart, setCart }) => {
   const cards = use(cardsPromise);
 
   const [activeTab, setActiveTab] = useState("products");
-  const [cart, setCart] = useState([]);
 
   return (
     <div className="max-w-300 m-auto py-30">
@@ -23,7 +22,7 @@ const CardSection = ({ cardsPromise }) => {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 font-semibold"
+          className={`tab rounded-full w-40 font-semibold ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : ""}`}
           aria-label="Products"
           defaultChecked
           onClick={() => setActiveTab("products")}
@@ -31,7 +30,7 @@ const CardSection = ({ cardsPromise }) => {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40 font-semibold"
+          className={`tab rounded-full w-40 font-semibold ${activeTab === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : ""}`}
           aria-label={`Cart(${cart.length})`}
           onClick={() => setActiveTab("cart")}
         />

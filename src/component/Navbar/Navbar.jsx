@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ cart }) => {
   return (
     <div className=" bg-base-100 shadow-sm py-4">
       <div className="navbar mx-auto max-w-300">
@@ -28,19 +28,27 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="font-semibold text-[#101727]">Products</a>
+                <a className="text-lg py-2 font-semibold text-[#101727]">
+                  Products
+                </a>
               </li>
               <li>
-                <a className="font-semibold text-[#101727]">Features</a>
+                <a className="text-lg py-2 font-semibold text-[#101727]">
+                  Features
+                </a>
               </li>
               <li>
-                <a className="font-semibold text-[#101727]">Pricing</a>
+                <a className="text-lg py-2 font-semibold text-[#101727]">
+                  Pricing
+                </a>
               </li>
               <li>
-                <a className="font-semibold text-[#101727]">Testimonials</a>
+                <a className="text-lg py-2 font-semibold text-[#101727]">
+                  Testimonials
+                </a>
               </li>
               <li>
-                <a className="font-semibold text-[#101727]">FAQ</a>
+                <a className="text-lg py-2 font-semibold text-[#101727]">FAQ</a>
               </li>
             </ul>
           </div>
@@ -84,9 +92,13 @@ const Navbar = () => {
                 d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
               />{" "}
             </svg>
-            <span className="badge badge-sm indicator-item">0</span>
+            <span
+              className={`w-5 h-5 flex justify-center items-center pt-0.5 text-xs rounded-full indicator-item cursor-pointer ${cart.length > 0 ? "bg-red-500 text-white" : "bg-gray-300"}`}
+            >
+              {cart.length}
+            </span>
           </div>
-          <p className="font-semibold">Login</p>
+          <p className="font-semibold cursor-pointer">Login</p>
           <a className="btn rounded-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
             Get Started
           </a>

@@ -8,6 +8,7 @@ import Cart from "./component/Cart/Cart";
 import GetStarted from "./component/GetStarted/GetStarted";
 import Pricing from "./component/Pricing/Pricing";
 import Cta from "./component/CTA/Cta";
+import { useState } from "react";
 
 const getCards = async () => {
   const res = await fetch("/cards.json");
@@ -17,13 +18,18 @@ const getCards = async () => {
 const cardsPromise = getCards();
 
 function App() {
+  const [cart, setCart] = useState([]);
   return (
     <>
       <div className="max-w-400 m-auto">
-        <Navbar />
+        <Navbar cart={cart} />
         <Hero />
         <Counter />
-        <CardSection cardsPromise={cardsPromise} />
+        <CardSection
+          cart={cart}
+          setCart={setCart}
+          cardsPromise={cardsPromise}
+        />
         <GetStarted />
         <Pricing />
         <Cta />

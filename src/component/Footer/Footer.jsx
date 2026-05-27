@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-5 justify-between items-start pb-10 px-8 lg:px-0">
           <div className="space-y-8">
             <h1>
-              <a className="text-4xl font-semibold leading-12 text-white ">
+              <a className="text-4xl font-semibold leading-12 text-white cursor-pointer">
                 DigiTools
               </a>
             </h1>
@@ -22,29 +22,29 @@ const Footer = () => {
           <div className="space-y-5">
             <h4 className="text-xl text-white font-semibold">Product</h4>
             <ul className="space-y-4">
-              <li>Features</li>
-              <li>pricing</li>
-              <li>Templates</li>
-              <li>Integrations</li>
+              <li className="cursor-pointer">Features</li>
+              <li className="cursor-pointer">pricing</li>
+              <li className="cursor-pointer">Templates</li>
+              <li className="cursor-pointer">Integrations</li>
             </ul>
           </div>
           <div className="space-y-5">
             <h4 className="text-xl text-white font-semibold">Company</h4>
             <ul className="space-y-4">
-              <li>About</li>
-              <li>Blog</li>
-              <li>Careers</li>
-              <li>Press</li>
+              <li className="cursor-pointer">About</li>
+              <li className="cursor-pointer">Blog</li>
+              <li className="cursor-pointer">Careers</li>
+              <li className="cursor-pointer">Press</li>
             </ul>
           </div>
 
           <div className="space-y-5">
             <h4 className="text-xl text-white font-semibold">Resources</h4>
             <ul className="space-y-4">
-              <li>Documentation</li>
-              <li>Help Center</li>
-              <li>Community</li>
-              <li>Contact</li>
+              <li className="cursor-pointer">Documentation</li>
+              <li className="cursor-pointer">Help Center</li>
+              <li className="cursor-pointer">Community</li>
+              <li className="cursor-pointer">Contact</li>
             </ul>
           </div>
           <div className="space-y-5">
@@ -62,13 +62,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="divider bg-gray-500 h-px"></div>
-        <div className="flex justify-between px-8 lg:px-0">
+        <div className="divider bg-gray-700 h-px"></div>
+        <div className="flex justify-between px-8 lg:px-0 text-gray-500">
           <p>© 2026 Digitools. All rights reserved.</p>
           <ul className="flex flex-row gap-5">
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Cookies</li>
+            <li className="cursor-pointer">Privacy Policy</li>
+            <li className="cursor-pointer">Terms of Service</li>
+            <li className="cursor-pointer">Cookies</li>
           </ul>
         </div>
       </div>

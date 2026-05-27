@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="badge badge-soft badge-primary rounded-3xl py-3">
           <img src={BulletImg} alt="" /> New: AI-Powered Tools Available
         </div>
-        <h1 className="text-5xl lg:text-7xl font-bold text-black-cus leading-20">
+        <h1 className="text-4xl lg:text-7xl font-bold text-black-cus leading-20">
           Supercharge Your
           <br />
           Digital Workflow
@@ -24,8 +24,8 @@ const Hero = () => {
           <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl text-white py-3">
             Explore Products
           </button>
-          <button className="btn btn-outline rounded-3xl border-[#4F39F6] bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
-            <IoPlayOutline className="text-[#4F39F6]" />
+          <button className="group btn btn-outline rounded-3xl border-[#4F39F6] text-[#4F39F6] hover:bg-linear-to-r hover:from-[#4F39F6] hover:to-[#9514FA] hover:text-white ">
+            <IoPlayOutline className="text-[#4F39F6] group-hover:text-white" />
             Watch Demo
           </button>
         </div>
